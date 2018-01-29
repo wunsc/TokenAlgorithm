@@ -39,47 +39,6 @@ public class MainTest {
     }
 
     /**
-     * Test of getToken method, of class Main.
-     */
-    @Test
-    public void testGetToken() {
-        System.out.println("getToken");
-        Main instance = new Main();
-    //    String expResult = "";
-      //  String result = instance.getToken();
-        assertEquals("",instance.getToken(), "");
-        // TODO review the generated test code and remove the default call to fail.
-      //  fail("The test case is a prototype.");
-    }
-
-    /**
-     * Test of addToken method, of class Main.
-     */
-    @Test
-    public void testAddToken() {
-        System.out.println("addToken");
-        List tk = null;
-        String token = "";
-        Main instance = new Main();
-        instance.addToken(tk, token);
-        // TODO review the generated test code and remove the default call to fail.
-//        fail("The test case is a prototype.");
-    }
-
-    /**
-     * Test of viewToken method, of class Main.
-     */
-    @Test
-    public void testViewToken() {
-        System.out.println("viewToken");
-        List tk = null;
-        Main instance = new Main();
-        instance.viewToken(tk);
-        // TODO review the generated test code and remove the default call to fail.
-        //fail("The test case is a prototype.");
-    }
-
-    /**
      * Test of main method, of class Main.
      */
     @Test
@@ -88,7 +47,6 @@ public class MainTest {
         String[] args = null;
         Main.main(args);
         // TODO review the generated test code and remove the default call to fail.
-       // fail("The test case is a prototype.");
+        fail("The test case is a prototype.");
     }
-    
 }

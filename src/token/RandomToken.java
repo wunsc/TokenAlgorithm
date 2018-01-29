@@ -5,6 +5,7 @@
  */
 package token;
 
+import java.util.List;
 import java.util.Random;
 
 /**
@@ -23,6 +24,14 @@ public class RandomToken {
         }
         String token = sb.toString();
         return token;
+    }
+    
+    public void addToken(List tk, String token){
+        tk.add(token);
+    }
+    
+    public void viewToken(List tk){
+        tk.forEach((token -> System.out.println(token)));
     }
 
 }
